@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Interactive Video",
+"dataUrl": "InteractiveVideo.data.unityweb",
+"wasmCodeUrl": "InteractiveVideo.wasm.code.unityweb",
+"wasmFrameworkUrl": "InteractiveVideo.wasm.framework.unityweb",
+"asmCodeUrl": "InteractiveVideo.asm.code.unityweb",
+"asmMemoryUrl": "InteractiveVideo.asm.memory.unityweb",
+"asmFrameworkUrl": "InteractiveVideo.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"}
+}

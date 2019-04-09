@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Interactive Video Test</title>
+  </head>
+  <body style="background-color: green;">
+  
+	<div id="Video">
+		<script src="Build/UnityLoader.js"></script>
+		<script>
+		
+			var VidWidth = window.innerWidth*0.8;
+			var VidHeight = VidWidth/16*9;
+			
+			Video.style.height = VidHeight  + 'px';
+			Video.style.width = VidWidth  + 'px';
+
+			var gameInstance = UnityLoader.instantiate("gameContainer", "Build/InteractiveVideo.json");
+		</script>
+		<div id="gameContainer" style="width:100%; height:100%;"></div>
+	</div>
+	
+  </body>
+</html>
